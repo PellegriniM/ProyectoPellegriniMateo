@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon.png">
+    <link rel="stylesheet" href="../Css/style.css" type="text/css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1 id="banner">blank</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./imagenes.html">Imagenes</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./niveles.html">Niveles</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo">Contacto</h1>
+    <main>
+        <div class="form-container">
+            <div class="form">
+                <form action="./Pages/contacto.html" method="GET" enctype="application/x-www-form-urlencoded">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-nombre form-borde">
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Email" class="form-email form-borde">
+                    <br>
+                    <select class="form-niveles form-borde" name="niveles" placeholder="Niveles">
+                        <option value="general">General</option>
+                        <option value="nivel 1">Nivel 1</option>
+                        <option value="nivel 2">Nivel 2</option>
+                        <option value="nivel 3">Nivel 3</option>
+                        <option value="nivel 4">Nivel 4</option>
+                        <option value="nivel 5">Nivel 5</option>
+                      </select>                  
+                    <br>
+                    <textarea name="Mensaje" id="Texto" placeholder="Mensaje" class="form-borde"></textarea>
+                    <br>
+                    <input type="button" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="../Images/logo.png" alt="" class="logo">
+    </footer>
+</body>
+</html>

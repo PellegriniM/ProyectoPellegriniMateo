@@ -1,0 +1,216 @@
+.nav,ul{
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    padding:0;
+    }
+.nav,li{
+    display: inline-block;
+}   
+.titulo{
+    text-align: center;
+} 
+li a {
+    display: inline-block;
+    color: white    ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color .4s ease-in-out, box-shadow .3s ease-in-out;
+}
+li a:hover {
+    box-shadow: rgba(255, 60, 0, 0.445) 0px 30px 60px -12px inset, rgba(255, 60, 0, 0.445) 0px 18px 36px -18px inset;
+    color: gray;
+}
+body, html {
+    height: 100%;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}    
+head{
+    margin: 0;
+}
+header, footer{
+    
+    background-color: orange;
+}
+#banner{
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    color: transparent;
+    background-color: red;
+}
+footer{
+    bottom: 0;
+    margin-top: 100%;
+    padding: 0px;
+    width:100%;
+    height:60px;
+}
+main{
+    margin-bottom: -100%;
+}
+#separador{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    color: transparent;
+}
+.imagen-inicio{
+    margin: 0%;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+}
+.fila-de-imagen{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+.imagen-fila{
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+
+}
+.botones-sep{
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.contenedor-img-boton{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0, 38, 255, 0.473);
+    width: 100%;
+}
+.img-cont{
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+}
+.grid-container-nosotros {
+    display: grid;
+    text-align: center;
+    gap: 5px;
+    background-color: blue;
+    padding: 10px;
+} 
+.grid-item-nosotros {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 5px;
+} 
+.item1 {
+    grid-column: 1 / span ;
+    grid-row: 1;
+} 
+.item2 {
+    grid-column: 3;
+    grid-row: 1;
+}
+.texto-img{
+    height: 200px;
+    margin: 0px;
+    font-size: 20px;
+}
+.nosotros-img{
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+}
+.articulo-nosotros{
+    font-size: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.562);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-imagen{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    height: 200px;
+}
+.titulo_niveles{
+    margin: 0px;
+}
+.container_niveles{
+    border: black solid 5px;
+    background-color: rgba(255, 0, 0, 0.568);
+    margin: 10px;
+    padding: 10px;
+}
+  .logo{
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.form-container{
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 500px;
+    width: 300px;
+}
+.form{
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    background-color: rgba(255, 0, 0, 0.493);
+}
+.form-nombre{
+    height: 25px;
+    width: 250px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-width: 1px;
+    margin: 2px;
+}
+.form-email{
+    height: 25px;
+    width: 250px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-width: 1px;
+}
+.form-niveles{
+    height: 25px;
+    width: 250px;
+    border-width: 1px;
+    margin: 2px;
+    font-size: 16px;
+}
+textarea{
+    width: 250px;
+    height: 370px;
+    padding: 12px 20px;
+    font-size: 16px;
+    resize: none;
+}
+.form-borde{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
