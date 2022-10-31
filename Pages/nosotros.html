@@ -1,54 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../icon.png">
-    <link rel="stylesheet" href="../Css/style.css" type="text/css">
-    <title>Informacion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Css/styleResponsive.css">
+    <title>Nosotros</title>
 </head>
+
 <body>
-    <header>
-        <h1 id="banner">blank</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./imagenes.html">Imagenes</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="./niveles.html">Niveles</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+    <!-- Banner -->
+    <div class="jumbotron text-center" id="banner"></div>
+    <!-- Banner Fin-->
+    <!-- Navbar Inicio-->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <!-- logo -->
+        <a class="navbar-brand" href="#">
+            <img src="../icon.png" alt="logo" style="width:40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="imagenes.html">Imagenes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./niveles.html">Niveles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <h1 class="titulo">Informacion</h1>
-        <h2>
-            Breve descripcion sobre nosotros
-        </h2>
-        <div class="grid-container-nosotros">
-            <div class="grid-item-nosotros item1">
-                <p class="texto-img" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vero ani
-                    mi velit recusandae totam soluta nam neque? Quas dolore, placeat aliquam eveniet doloremque minus quaerat rep
-                    ellendus. Eveniet porro dolor voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor itaqu
-                    e mollitia aliquid, esse voluptatum libero. Ad sequi dicta nihil autem enim totam distinctio. Quaerat odio.
-                    Odio dolore eos nesciunt eveniet! Optio corporis eligendi qui, consequuntur blanditiis
-                    saepe repudiandae libero, officia totam, aperiam recusandae fugiat.
-                    Optio accusantium veritatis eos nam earum facere sit natus at rem, placeat, 
-                    quos reprehenderit doloremque neque iure nemo minima animi delectus error!</p>
-                </div>
-            <div class="grid-item-nosotros item2">
-                <img src="../Images/Study.jpg" alt="" class="nosotros-img">
-            </div>
         </div>
-        <p class="articulo-nosotros">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, expedita obcaecati. 
-            Odio dolore eos nesciunt eveniet! Optio corporis eligendi qui, consequuntur blanditiis
-            saepe repudiandae libero, officia totam, aperiam recusandae fugiat.
-            Optio accusantium veritatis eos nam earum facere sit natus at rem, placeat, 
-            quos reprehenderit doloremque neque iure nemo minima animi delectus error!</p>
-    </main>
+    </nav>
+    <!-- Navbar Fin-->
+
+    <!-- Nosotros Inicio -->
+    <h1 class="nosotrosTitle">Nosotros</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="nleft col-md-6">
+                <h2>Quienes somos?</h2>
+                <p>Escuela de ingles, que se enfoca en el aprendizaje del idioma, brinda todos los conocimientos
+                    necesarios para que el estudiante tenga los conceptos de la lengua.</p>
+                <p>Contamos con varios niveles de aprendizaje el cual los alumnos aprenderan diferentes conceptos del
+                    ingles</p>
+                <p>Tenemos espacios culturales donde se realizan diversas actividades con diferentes escuelas de ingles
+                    para que los alumnos puedan socializar y ejercitar ingles, realizando activades, concursos, juegos,
+                    etc</p>
+                <p>Brindamos todo el material de estudio para cada alumno en formato digital para su facil manejo</p>
+                <p>Tenemos material de estudio original de Cambridge, y certificados habilitados.</p>
+                <p>Cada examen se calificara y enviara a Cambridge para su posterior corrección.</p>
+            </aside>
+            <aside class="nright col-md-6"></aside>
+        </div>
+    </div>
+    <!-- Nosotros Fin -->
+    <!-- Jumbotron Inicio -->
+    <div class="jumbotron nosotros">
+        <h2 class="display-4">School of English</h2>
+        <p class="lead">Desde 2010 proyectando un futuro</p>
+        <hr class="my-4">
+        <p>Cualquier consulta:</p>
+        <a class="btn btn-warning btn-lg botonNosotros" href="./contacto.html" role="button">Contactenos</a>
+    </div>
+    <!-- Jumbotron Fin -->
+    <!-- Footer Inicia-->
     <footer>
-        <img src="../Images/logo.png" alt="" class="logo">
+        <p class="footer-text">Todos los derechos son reservados por compyright</p>
+        <div class="redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
     </footer>
+    <!-- Footer Fin-->
+
+    <!-- Bootstrap 4.6-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

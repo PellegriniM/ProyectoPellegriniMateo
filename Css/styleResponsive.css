@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgba(255, 166, 0, 0.603);
 }
 
@@ -63,18 +63,6 @@ h2 {
 
 }
 
-.jumbotron button {
-    background-color: orange;
-    border-color: rgba(0, 0, 0, 0.438);
-    box-shadow: 0 0 5px orange;
-}
-
-.jumbotron button:hover {
-    background-color: rgba(255, 68, 0, 0.555);
-    text-shadow: 0 0 5px orange;
-    box-shadow: 0 0 5px rgba(255, 68, 0, 0.555);
-}
-
 .jumbotron p {
     color: white;
     font-size: 25px;
@@ -91,28 +79,31 @@ h2 {
 }
 
 .img1 {
-    background-image: url(../Images/London1.jpg);
+    background-image: url(../Images/london1.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .img2 {
-    background-image: url(../Images/London2.jpg);
+    background-image: url(../Images/london2.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .img3 {
-    background-image: url(../Images/London3.jpg);
+    background-image: url(../Images/london3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 /*Galeria Fin*/
 /*Muestra*/
-.card-img-top{
+.card-img-top {
     width: 50px;
     height: 50px;
-    
+
 }
+
 /*Muestra Fin*/
 /*Imagenes*/
 .item {
@@ -204,3 +195,107 @@ footer i:hover {
 }
 
 /*Footer Fin*/
+
+
+form {
+    margin-top: 15px;
+}
+.card-header {
+    background: linear-gradient(to right, orange, rgba(255, 166, 0, 0.603), orange);
+    text-transform: capitalize;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+}
+
+.formButton {
+    background-color: orange;
+    border-color: rgba(0, 0, 0, 0.438);
+    box-shadow: 0 0 5px orange;
+    color: black;
+}
+
+.formButton:hover {
+    background-color: rgba(255, 68, 0, 0.781);
+    color: black;
+    text-shadow: 0 0 5px orange;
+    box-shadow: 0 0 5px rgba(255, 68, 0, 0.555);
+}
+
+.formButton:active {
+    background-color: orange;
+    color: white !important;
+}
+
+/*Nosotros*/
+
+
+
+
+
+/* Niveles */
+.nivelesGradRight {
+    background: linear-gradient(to right, rgb(255, 217, 0), orange);
+}
+
+.nivelesGradLeft {
+    background: linear-gradient(to left, rgb(255, 217, 0), orange);
+}
+
+.nivelesShadow {
+    box-shadow: 0 0 10px black;
+}
+
+.nivelesT {
+    color: white;
+}
+
+
+.shadowText {
+    text-shadow: 0 0 5px red;
+}
+
+
+/* Nosotros */
+.nosotrosTitle {
+    background-color: orange;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.nright {
+    background-image: url(../Images/inlustrativo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nosotros {
+    background-image: linear-gradient(rgba(255, 174, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(255, 174, 0, 0.5)),
+        url(../Images/englishwhite.jpg);
+}
+
+.botonNosotros {
+    background-color: rgba(255, 166, 0, 0.479);
+    /* Green */
+    border: 0 0 black;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.botonNosotros:hover {
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 5px black;
+}
